@@ -173,9 +173,10 @@ a {
     display: flex;
     margin-left: auto;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 95px;
 }
 .letter-info {
-
 }
 .news-title {
     max-width: 378px;
@@ -210,7 +211,7 @@ a {
     color: #1E1E1E;
 }
 .news-item__text {
-    max-width: 305px;
+    max-width: 268px;
     margin-top: 10px;
     font-size: 1.6rem;
     line-height: 26px;
