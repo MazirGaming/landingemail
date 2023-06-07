@@ -120,6 +120,9 @@ a {
     position: absolute;
     top: calc(100% - 334px);
 }
+.img-header img{
+    width: 100%;
+}
 .main{
     background: #FDF9F1;
     padding-top: 358px;
@@ -146,6 +149,9 @@ a {
     text-align: center;
 
     color: #4F4D49;
+}
+.letter{
+    padding-bottom: 63px;
 }
 .letter-head{
     margin-top: 140px;
@@ -212,6 +218,7 @@ a {
 }
 .news-item__text {
     max-width: 268px;
+    min-height: 78px;
     margin-top: 10px;
     font-size: 1.6rem;
     line-height: 26px;
@@ -237,4 +244,189 @@ a {
 }
 .news-item__btn:hover::after{
     display: block;
+}
+.letter-show{
+    position: relative;
+    display: inline-block;
+}
+.img-react{
+    max-height: 100%; 
+    max-width: 100%;
+}
+.img-news {
+    max-height: 100%; 
+    max-width: 100%;
+    position: absolute;
+    left: -146px;
+    top: 89px;
+}
+.feature-container{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+}
+
+.feature-frame {
+    position: relative;
+    margin-right: 250px;
+}
+
+.feature-frame .feature-img{
+    position: absolute;
+    top: 50%;
+    left: 177px;
+    transform: translateY(-50%);
+    max-height: 100%;
+    max-width: 100%;
+}
+.feature-title {
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 50px;
+    color: #1E1E1E;
+    margin-bottom: 18px;
+}
+.feature-desc {
+    font-family: 'Sora';
+    font-size: 1.8rem;
+    line-height: 28px;
+    color: #545454;
+    margin-bottom: 28px;
+}
+.feature-text {
+    font-size: 1.6rem;
+    line-height: 26px;
+    color: #1E1E1E;
+    margin-bottom: 50px;
+}
+.service{
+    padding: 166px 0 140px 0;
+}
+.service-container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.service-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 63px;
+    color: #1E1E1E;
+    margin-bottom: 58px;
+}
+.service-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 23px;
+}
+.service-item{
+    flex: 1;
+    padding-top: 50px;
+    padding-left: 41px;
+    height: 334px;
+}
+.service-item .service-img{
+    margin-bottom: 43px;
+}
+.service-item .service-item__title{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 25px;
+    color: #1E1E1E;
+}
+.service-item .service-item__text{
+    font-size: 1.6rem;
+    line-height: 26px;
+    color: #7F7D79;
+}
+.service-item__active{
+    background: #FDF9F1;
+    box-shadow: 0px 16px 250px 10px rgba(155, 155, 155, 0.25);
+}
+.business {
+    background: #1E1E1E;
+    padding-top: 59px;
+    padding-bottom: 68px;
+}
+.business-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.business-button i{
+    margin-left: 19px;
+    width: 15px;
+    height: 12px;
+}
+.business-title {
+ 
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 63px;
+    color: #FFFFFF;
+    max-width: 583px;
+    margin-bottom: 10px;
+}
+.business-text {
+    font-size: 1.8rem;
+    line-height: 28px;
+    color: #B5B3AF;
+    margin-bottom: 40px;
+}
+.testmonials-container{
+    max-width: 1155px;
+    margin: 0 auto;
+}
+.testmonials-heading{
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 63px;
+    text-align: center;
+    color: #1E1E1E;
+    margin-bottom: 76px;
+}
+.testmonials-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 77px;
+}
+.testmonials-img{
+    width: 100%;
+    max-width: 502px;
+    height: 470px;
+}
+.testmonials-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testmonials-info{
+    flex: 1;
+}
+.testmonials-info__desc{
+    font-size: 2.3rem;
+    color: #1E1E1E;
+}
+.testmonials-info__author{
+    font-weight: 300;
+    font-size: 1.766rem;
+    line-height: 22px;
+    color: #7D7D7D;
+    margin-top: 27px;
+}
+.testmonials-info__rate{
+    margin-top: 14px;
+    color: #FFC828;
+    font-size: 2.3rem;
+}
+.text-rate{
+    margin-top: 9px;
+    font-size: 1.766rem;
+    line-height: 22px;
+    color: #1E1E1E;
 }
