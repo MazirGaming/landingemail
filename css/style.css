@@ -19,6 +19,7 @@ a {
 .wrapper {
     margin: 0 auto;
     max-width: 1440px;
+    background: #fdf9f1;
 }
 .header {
     background: #1E1E1E;
@@ -70,6 +71,9 @@ a {
     padding: 9px 25px;
     background: rgba(181, 179, 175, 0.2);
     border-radius: 6px;
+    font-size: 1.6rem;
+    line-height: 26px;
+    text-align: center;
 }
 .header-content{
     display: flex;
@@ -362,6 +366,9 @@ a {
     width: 15px;
     height: 12px;
 }
+.business-img img {
+    max-width: 100%;
+}
 .business-title {
  
     font-weight: 600;
@@ -370,6 +377,10 @@ a {
     color: #FFFFFF;
     max-width: 583px;
     margin-bottom: 10px;
+}
+.testmonials{
+    padding-bottom: 154px;
+    padding-top: 140px;
 }
 .business-text {
     font-size: 1.8rem;
@@ -387,10 +398,11 @@ a {
     line-height: 63px;
     text-align: center;
     color: #1E1E1E;
-    margin-bottom: 76px;
+    max-width: 596px;
+    margin: 0 auto 76px auto;
 }
 .testmonials-content{
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: space-between;
     gap: 0 77px;
@@ -429,4 +441,173 @@ a {
     font-size: 1.766rem;
     line-height: 22px;
     color: #1E1E1E;
+}
+.slick-slider{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.slick-prev,
+.slick-next {
+    width: 59px;
+    height: 57px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background: #DCD4C5;
+}
+.slick-next {
+    margin-left: 8px;
+    order: 3;
+    left: 90%;
+}
+.slick-prev {
+    order: 2;
+    left: calc(90% - 59px - 8px);
+}
+.library{
+    padding-bottom: 140px;
+}
+.library-container{
+    max-width: 1010px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.library-head {
+    max-width: 683px;
+}
+.library-heading {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 63px;
+    text-align: center;
+    color: #1E1E1E;
+    margin-bottom: 10px;
+}
+.library-desc {
+    max-width: 326px;
+    font-size: 1.8rem;
+    line-height: 28px;
+    text-align: center;
+    color: #545454;
+    margin: 0 auto;
+}
+.library-list-title {
+    display: flex;
+    gap: 0 50px;
+    margin-bottom: 86px;
+    margin-top: 31px;
+}
+
+.item-title {
+    font-weight: 600;
+    font-size: 2.01926rem;
+    line-height: 25px;
+    text-align: center;
+    color: #1E1E1E;
+}
+.item-title--active {
+    width: 132px;
+    height: 50px;
+    background: #1E1E1E;
+    border-radius: 12.6204px;
+}
+.library-list-imgs {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 25px;
+    margin-bottom: 36px;
+}
+.library-item {
+    flex: 1;
+    height: 361px;
+}
+.library-item-link {
+
+}
+.item-img{
+    max-width: 100%;
+    margin-bottom: 13px;
+}
+.library-item-title {
+    font-weight: 600;
+    font-size: 1.76685rem;
+    line-height: 22px;
+    color: #00BD82;
+    margin-bottom: 9px;
+}
+.library-item-desc {
+    max-width: 200px;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 32px;
+    color: #1E1E1E;
+}
+.footer {
+    padding-top: 70px;
+    background: #1E1E1E;
+    text-align: center;
+}
+.footer-heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 63px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.footer-text {
+    font-size: 1.8rem;
+    line-height: 28px;
+    text-align: center;
+    color: #B5B3AF;
+    max-width: 338px;
+    margin: 0 auto;
+}
+.footer-button{
+    margin-top: 35px;
+}
+.footer-container {
+    text-align: initial;
+    padding: 76px 99px 82px 134px;
+    display: flex;
+    gap: 0 114px;
+}
+.footer-type-email{
+    max-width: 279px;
+}
+.footer-desc,
+.footer-address{
+    max-width: 255px;
+    margin-top: 31px;
+    font-size: 1.6rem;
+    line-height: 26px;
+    color: #B5B3AF;
+    margin-bottom: 15px;
+}
+.footer-menu{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px 20px;
+    flex-wrap: wrap;
+}
+.footer-menu .footer-list > h5{
+    color: #FFFFFF;
+}
+.footer-item-menu > a{
+    color: #B5B3AF;
+
+}
+.meunu-title{
+    margin-bottom: 22px;
+    font-size: 1.8rem;
+    line-height: 28px;
+}
+.footer-item-link{
+    font-size: 1.8rem;
+    line-height: 48px;
 }
